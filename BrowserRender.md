@@ -1,8 +1,8 @@
 <p align="center">
- <img width="600" src="/BrowserRender/assets/chrome.png" alt="logo">
+ <img width="600" src="/assets/chrome.png" alt="logo">
 </p>
 <p align="left">
-  <img src="/BrowserRender/assets/tools.png" />
+  <img src="/assets/tools.png" />
 </p>
 
 # Browser🔧
@@ -11,19 +11,19 @@
 
 - **browser the websit**
 
-![start welcome](/BrowserRender/assets/github.png)
+![start welcome](/assets/github.png)
 
 - **watch video**
 
-![video](/BrowserRender/assets/watch-video.png)
+![video](/assets/watch-video.png)
 
 - **access to information**
 
-![infomation](/BrowserRender/assets/react.png)
+![infomation](/assets/react.png)
 
 - **coding**
 
-![coding](/BrowserRender/assets/coding.png)
+![coding](/assets/coding.png)
 
 **However**，浏览器在刚诞生的时候，仅仅只能展示一些简单的文本，它是如何一步步发展到今天这样呢？
 
@@ -35,7 +35,7 @@
 
 时间回到1950年，当时一台计算机需要占据一整个房间，而性能却比不上现在的微型计算机，但技术发展日新月异，到了 1960 年，它已能运行复杂的程序。全球各国政府和大学都认为，如果这些机器可以相互连通以促进合作共赢和科学突破，那将是一件大好事。
 
-![alt](/BrowserRender/assets/computer.png)
+![alt](/assets/computer.png)
 
 阿帕网（ARPANET）是第一个成功的网络连接计划，1969 年，第一条消息从美国加州大学洛杉矶分校（UCLA）计算机科学实验室发送到同样位于加州的斯坦福研究院（Stanford Research Institute, SRI）
 
@@ -55,19 +55,37 @@
 
 > 💡Tips:1995 年 8 月 9 日，网景公开募股，最初的价格是 14 美元一股，但后来阴差阳错，改为 28 美元一股发行，当天收盘时，网景的股票成了 75 美元一股，网景成为了当时世界上市值最高的互联网公司，Netscape 的 IPO 也助长了日益增长的网络泡沫。
 
-1990年代后期创建了自己的浏览器 Internet Explorer(IE)，并且和Windows捆绑发布，这使其能够在市场上占据一席之地并不断发展壮大，最终在浏览器领域取得了胜利，这就是著名的第一次浏览器大战
+#### 第一次浏览器大战——垄断的形成
 
-到2003年，微软的Internet Explorer控制了92%以上的市场。故事到这里似乎已经结束了。然而，正如最初发布后的情况一样，Internet Explorer正在成为劣质产品
+1995年，在网景浏览器取得市场绝对主导地位的同时，微软意识到了浏览器的市场地位，在获取Mosaic的授权后，推出了 Internet Explorer 1 ，借助自己操作系统的市场地位，和Windows系统捆绑免费销售，开始抢占浏览器市场。大战一触即发，一直持续到1998年。
 
-2008年Google推出了其专有浏览器——Chrome。到2012年底，即推出仅四年后，谷歌 Chrome 浏览器凭借其易用性、跨平台功能、速度以及与标签和书签相关的特殊功能，取代 Internet Explorer 成为最受欢迎的浏览器。
+这场大战最终以微软成功抢占了网景的浏览器地位为告终。在这场大战中，IE的迭代速度十分迅速，率先打造出了第一款支持CSS的商用浏览器（IE4），让网页的开发各加便捷。Trident、Gecko渲染引擎出现。Mozilla 组织建立。
 
-而Internet Explorer 的流行度却在逐渐减少，主要是因为它变得缓慢和过时，而 Microsoft 发现这个问题时，自己似乎已经是一个局外人。该公司不想继续错过，于是着手解决这个问题，但发现一个关键问题是“Internet Explorer”这个名字已经成为劣质浏览器的同义词。因此，为了尝试重新进入游戏，Microsoft不得不重新命名，于是Edge诞生了。Edge是Microsoft浏览器的最新版本，它受到了很多好评，但对于Microsoft来说，Edge 的出现可能为时已晚。而IE也终成时代的眼泪，它将从Windows11中消失，并在2022停止更新。
+但残酷的竞争，也带来了一些问题：
+1. 优先增加新功能，而滞后问题的修复速度；
+2. 采用专属格式，不遵从标准；
+3. 为了让更多的网页显示在IE浏览器里，微软在UA上增加“兼容性标识”，UA开始变得越来越混乱；
+4. 残留的兼容问题和bug，给以后的开发者带来了巨大的负担；
 
-![](/BrowserRender/assets/webBrowserMarketShare.png)
+#### 第二次浏览器大战——新格局的出现
 
-> 💡Tips:在2000年代初期，可能是在Microsoft将浏览器附加到其操作系统之后，Apple发布了Safari，一种专为 Mac 设计的浏览器，并成为目前市场上第二大浏览器
->
-> 💡Tips:Edge浏览器于2015年发布；2017年10月，微软上线了基于Chromium的 Android版Edge，2018年12月，微软放弃EdgeHTML引擎开发，PC版Edge直接采用Chromium
+在接下来的时间里，Netscape 也没有坐以待毙。Mozilla组织的建立，正式为下一代浏览器 Firefox 做准备。但因种种因素影响，搭配全新 Gecko 渲染引擎的 Firefox，直到2004年才正式推出。
+
+再看微软，因为这场胜利，IE 的迭代也开始放慢了脚步。不过这个局面并没有持续太久。
+
+2003年，苹果公司搭配自家的 Mac OS 推出了 Safari浏览器。但受限于 Mac 的用户群体，并没有形成实际的影响。2005年，苹果开源了 Safari 的内核（Webkit，基于KHTML）。
+
+2008年，谷歌以 Webkit 为内核，创建了 Chromium浏览器。同年，面向大众给用户的 Chrome 问世。搭载着自研的 V8 引擎，让 JavaScript 的性能得以提升，受到开发的青睐。2013年，Chromium 团队因 Chromium 与 WebKit2 存在架构上的分歧，决定 开始研发自己的渲染引擎 —— Blink（在Chrome28及往后的版本使用）。
+
+新浏览器、新内核的出现，逐步影响着 IE 的市场，但当微软反应过来的时候，为时已晚，IE 自身的诸多历史问题和新晋浏览器的易用，让这场变化不可逆转。虽然微软在之后几年，开始迭代IE，即使发布了 Microsoft Edge，也已经无济于事。
+
+#### 浏览器“终局”
+
+浏览器内核主要分成：Trident、KHTML、Gecko、WebKit、Presto、Blink、EdgeHTML。
+
+伴随着，Opera把Presto内核替换成了Blink，微软转向Chromium（放弃了EdgeHTML），可见 Chrome 的影响力已经形成。
+
+![](/assets/webBrowserMarketShare.png)
 
 <p align="center">
   <img src="assets/Timeline_of_the_Web_Browsers.jpg" />
@@ -81,58 +99,21 @@
 
 ![system](assets/system.png)
 
-### Browser process model
-
-不同浏览器的进程模型可能有所不同，以Chrome浏览器为例：
-
-多进程架构：
+浏览器中的每个网页都由一个独立运行的渲染进程进行负责解析内容，这样可以保证某些网页的崩溃而不影响到整个浏览器的运行，提高浏览器运行的稳定性。
 
 ![processModel](assets/processModel.png)
 
-上图中，顶部是浏览器进程，它与处理应用其它模块任务的进程进行协调。对于渲染进程来说，创建了多个渲染进程并分配给了每个标签页。Chrome 在可能的情况下会给每个标签页分配一个进程。而现在它试图给每个站点分配一个进程，包括iframe。
+### HTML CSS和JS文件的解析
 
-- 浏览器进程：控制应用中的 “Chrome” 部分，包括地址栏，书签，回退与前进按钮，以及处理 web 浏览器中网络请求、文件访问等不可见的特权部分；
-- 插件进程：控制站点使用的任意插件，如 Flash；
-- GPU 进程：处理独立于其它进程的 GPU 任务。GPU 被分成不同进程，因为 GPU 处理来自多个不同应用的请求并绘制在相同表面。
-- 渲染进程：控制标签页内网站展示，解析HTML，CSS，运行JavaScript等都在这个进程中；
+浏览器获取的html资源后自上而下开始解析，生成dom树；如果遇到style的内联样式和link会将css交由css渲染器构建css规则树；其中加载link引入的外部样式文件是异步加载的，并且整个css规则树也是与dom树的构建是并行的；
 
-## Busy rendering process
-
-浏览器内核就是指浏览器最重要或者说核心的部分”Rendering Engine”，译为”渲染引擎”，即渲染进程。渲染进程是浏览器中最为繁忙的进程，它是一个多线程架构，包含了以下几个线程：
-
-- JS主线程：执行Js脚本
-- GUI渲染线程
-- 事件触发线程
-- 计时器触发线程
-- http请求线程
-
-它处理的任务包括但不限于：
-
-- 解析HTML
-- 解析CSS
-- 计算样式、布局
-- 处理图层、渲染页面
-- 执行JS代码
-- 执行事件处理函数
-- 执行计时器回调函数等
-
-### HTML CSS
-
-当浏览器拿到服务器返回的网页原材料时，GUI线程首先会解析HTML，CSS生成对应的DOM树，两者合并生成渲染树，然后进行排版，渲染
+由于js可以操作dom，所以在html解析到Javascript脚本时会停止对dom的解析；而css的解析会阻塞js的执行，所以在某些情况下css的解析会导致dom的解析；
 
 ![htmlRender](assets/render.png)
-
-### JavaScript
-
-当遇到JS脚本要开始执行时，GUI渲染线程会停止解析，JS主线程开启，执行JS代码。
-
-最开始的时候，JS线程会进入一个无限循环，循环检查宏任务队列中是否有任务存在。如果有，就取出第一个任务执行；执行完该任务中的同步代码后，会检查微任务队列中是否有代码，如果有，则依次执行完微任务队列中的所有任务；然后进行页面渲染的，最后进入下一次循环；如果没有，则进入休眠状态。
-
-> ❓Question: requestAnimationFrame，requestIdentCallback的调用时机分别在哪？
 
 ## The End🔚
 
 随着互联网的快速发展，现代浏览器不仅仅是一个展示信息的工具，更像是一个操作系统；基于它内核到强大性能，它的衍生技术已经扩展到互联网各个领域。前端(JavaScript)、后端(NodeJs)、桌面端(Electron)、移动端APP(React Native)都有它的身影。
 
 > Any application that can be written in JavaScript, willeventually be written in JavaScript.
-> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; --Jeff Atwood
+>  --Jeff Atwood
